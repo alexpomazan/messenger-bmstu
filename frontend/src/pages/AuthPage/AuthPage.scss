@@ -1,0 +1,14 @@
+.card-action {
+  display: flex;
+  justify-content: center;
+  .btn {
+    width: 150px;
+    &:first-child {
+      margin-right: 20px;
+    }
+    &:hover {
+      background-color: white !important;
+      color: black;
+    }
+  }
+}
